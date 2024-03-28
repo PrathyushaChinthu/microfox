@@ -81,16 +81,11 @@ const SignupPage = (props: Props) => {
         </Typography>
         <Typography sx={{ mb: 1 }} variant="h6">
           Already have an account?
-          <Link href={"/app"}>
-            <button onClick={() => router.back()}>Log in</button>
+          <Link href="/">
+            <Button variant="text" color="primary">
+              Log in
+            </Button>
           </Link>
-          {/* <Button
-            color="primary"
-            variant="text"
-            onClick={() => router.push("/signup-page")}
-          >
-            Log in
-          </Button> */}
         </Typography>
         <TextField
           sx={{ mb: 1 }}

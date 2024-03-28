@@ -76,7 +76,12 @@ const LoginPage = () => {
           Sign in to Microfox
         </Typography>
         <Typography sx={{ mb: 1 }} variant="h6">
-          New user? <Link href="/signup-page">Create an account</Link>
+          New user?
+          <Link href="/signup-page">
+            <Button variant="text" color="primary">
+              Create an account
+            </Button>
+          </Link>
         </Typography>
 
         <TextField
